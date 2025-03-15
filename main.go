@@ -162,5 +162,5 @@ func main() {
 	r.POST("/genmove", genMove)
 	r.POST("/end_game", endGame)
 
-	r.Run(":8080")
+	r.Run(":9090")
 }
